@@ -1,0 +1,46 @@
+Escape The Grid: 3D Adventure Game: 
+
+Escape the Grid is an advanced 3D OpenGL game developed with PyOpenGL. 
+
+The project demonstrates extensive use of 3D transformations (translation, rotation, scaling), perspective projection, 
+and camera manipulation while providing a much richer and more interactive gameplay experience.
+The player begins at the center of a dynamic 3D arena made of checkerboard tiles, some of which rise, fall, or turn into traps. 
+The goal is to survive waves of enemies, collect diamonds and power-ups, and eventually escape the arena by defeating a boss enemy or gathering enough resources.
+
+Gameplay Features:
+1. Player
+•	Represented with cubes, spheres, and cylinders.
+•	Can move, rotate, jump, and strafe using a combination of W/S/A/D keys and Arrow keys.
+•	Equipped with a gun that fires cube-shaped bullets.
+•	Gains temporary boosts through collectibles (speed boost, shield, and multi-shot).
+
+2. Enemies
+•	Chasers: Classic red-sphere enemies that pursue the player.
+•	Shooters: Stationary enemies that fire projectiles at the player.
+•	Boss: A giant pulsating enemy that spawns after every 20 points, requiring multiple hits to defeat.
+
+3. Arena
+•	Dynamic checkerboard floor with moving platforms and lava trap tiles.
+•	Surrounded by four boundary walls.
+•	Collectible diamonds appear randomly; gathering those increases score.
+
+4. Camera & Controls
+•	Arrow Keys:
+1.	UP/DOWN → zoom in/out.
+2.	LEFT/RIGHT → orbit camera around the arena.
+3.	SHIFT + UP/DOWN → jump/hop control.
+
+4.	SHIFT + LEFT/RIGHT → strafe player sideways.
+•	Right Mouse Button: Toggle between First-Person, Third-Person, and Tactical Top-Down View.
+•	Left Mouse Button: Fire bullets.
+
+5. Environmental Effects
+•	Day/Night cycle: background color changes dynamically.
+•	Fog mode (F key): simulates reduced visibility.
+
+6. Game Flow
+•	Life System: Player loses health if touched by enemies or steps on lava.
+•	Energy Bar: Consumed for power-ups, recharges over time.
+•	Game Over: If life reaches zero.
+•	Victory: Collect 30 diamonds or defeat the boss enemy.
+
