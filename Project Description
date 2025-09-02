@@ -26,17 +26,27 @@ Gameplay Features:
 
 4. Camera & Controls
 •	Arrow Keys:
-1.	UP/DOWN → zoom in/out.
-2.	LEFT/RIGHT → orbit camera around the arena.
-3.	SHIFT + UP/DOWN → jump/hop control.
+1.  UP/DOWN —> Camera up/down.
+2.  LEFT/RIGHT —> camera left/right.
+3.  SHIFT —-> jump control.
+4.  W —> Move player to front
+5. A —-> Move Player to the right
+6. D—-> Move player to the left
+7. S—-> Move player back
+8. X —-> Fire Up
 
-4.	SHIFT + LEFT/RIGHT → strafe player sideways.
 •	Right Mouse Button: Toggle between First-Person, Third-Person, and Tactical Top-Down View.
 •	Left Mouse Button: Fire bullets.
 
-5. Environmental Effects
-•	Day/Night cycle: background color changes dynamically.
-•	Fog mode (F key): simulates reduced visibility.
+5. Environmental Effects: 
+  -Dynamic Grid (Tile color, Tile Height): 
+   Lava tiles pulse in color and height for a dynamic look. Obstacles (walls) have animated heights for visual effect. 
+   High walls surround the arena to keep the player and enemies inside. The camera can switch to a top-down "map view" showing the entire 
+   arena and its features.
+  -Environment Hazards(Obstacle):
+   Lava tiles deal damage to the player if they stand on them. Collect crystals to achieve more points. Achieve random power by collecting power points.
+
+
 
 6. Game Flow
 •	Life System: Player loses health if touched by enemies or steps on lava.
